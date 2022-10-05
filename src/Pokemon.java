@@ -50,4 +50,7 @@ public abstract class Pokemon implements PokemonGym {
     public String getSound() {
         return sound;
     }
+    public String getAttack() {
+        return attack:
+    }
 }
