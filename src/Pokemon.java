@@ -50,7 +50,12 @@ public abstract class Pokemon implements PokemonGym {
     public String getSound() {
         return sound;
     }
-    public String getAttack() {
-        return attack:
+
+    public void setAttacks(List<String> attacks) {
+        this.attacks = attacks;
+    }
+
+    public List<String> getAttacks() {
+        return attacks;
     }
 }
