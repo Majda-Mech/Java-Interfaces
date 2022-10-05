@@ -27,13 +27,12 @@ public abstract class ElectricPokemon extends Pokemon {
         System.out.println("hits with thunder punch");
     }
 
-    // constructor-----------------------------------------------------------------------------
 
     public void setAttacks(List<String> attacks) {
         this.attacks = attacks;
+        
     }
 
-    // gettersNsetters-----------------------------------------------------------------------------
 
     public List<String> getAttacks() {
         return attacks;
