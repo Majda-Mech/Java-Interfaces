@@ -3,7 +3,6 @@ import java.util.List;
 
 public abstract class Pokemon implements PokemonGym {
 
-    //abstract super klasse met 5 private final variablen
     private final String type;
     private final String name;
     private int level;
@@ -11,7 +10,6 @@ public abstract class Pokemon implements PokemonGym {
     private final String food;
     private final String sound;
 
-    //constructor
     public Pokemon(String type, String name, int level, int hp, String food, String sound) {
         this.type = type;
         this.name = name;
@@ -53,14 +51,3 @@ public abstract class Pokemon implements PokemonGym {
         return sound;
     }
 }
-
-//
-//    List<String> attacks = Arrays.asList("surf", "fireLash", "leafStorm", "hydroPump", "thunderPnch", "electroBall","solarBeam", "flameThrower", "hydroCanon", "pyroBall", "thunder", "rainDance", "leechSeed", "leaveBlade", "inferno", "voltTackle");
-//
-//    public List<String> getAttacks() {
-//        return attacks;
-//    }
-//    public void setAttacks(List<String> attacks) {
-//        this.attacks = attacks;
-//    }
-//}
